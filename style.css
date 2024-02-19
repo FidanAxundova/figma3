@@ -1,0 +1,263 @@
+body,html{
+    background-color: #FBF8CC;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,nav{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+
+}
+header nav.logo{
+    color: rgb(27, 27, 162);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+header nav .linkler{
+    display: flex;
+    gap: 40px;
+}
+
+header nav .linkler a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(27, 27, 162);
+}
+header nav .iconlar{
+    display: flex;
+    gap: 30px;
+}
+header nav i{
+    display: none;
+}
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.product-designer{
+    display: flex;
+    margin-top: 80px;
+}
+
+.product-designer .sol-teref p{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(27, 27, 162);
+    
+
+
+}
+
+.product-designer .sol-teref h1{
+    font-size: 100px;
+    font-weight: 800;
+    color: rgb(27, 27, 162);
+}
+.product-designer .sol-teref img{
+    margin-top: 40px;
+}
+
+.product-designer .sag-teref{
+    position: relative;
+
+}
+
+.product-designer .sag-teref .ulduz{
+    position: absolute;
+    right: 20px;
+    
+}
+
+.product-designer .sag-teref .line{
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+
+.awagi-hisee .first-step h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #F7F197;
+    margin-bottom: 60px;
+
+}
+.awagi-hisee .first-step .nokteli{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.awagi-hisee .first-step .nokteli .birinci{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+    
+}
+.awagi-hisee .first-step .nokteli .birinci .smt{
+    display: flex;
+    gap: 20px;
+}
+
+.awagi-hisee .first-step h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: #03045E;
+    margin-bottom: 60px;
+}
+.awagi-hisee .first-step .nokteli .birinci p{
+    margin-top: 8px;
+    margin-bottom: 10px;
+
+}
+
+
+.son-hisse h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #F7F197;
+    margin-bottom: 60px;
+    
+
+}
+
+.son-hisse .qutular{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    color: #03045E;
+}
+.son-hisse p{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: #03045E;
+}
+
+
+.son-hisse .qutular .birinci-qutu img{
+    margin-top: 30px;
+}
+
+
+.son-hisse .qutular .birinci-qutu h2{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 40px;
+    color: #03045E;
+
+}
+.son-hisse .qutular .birinci-qutu p{
+    margin-bottom: 30px;
+    color: #03045E;
+}
+
+.son-hisse .qutular .ikici-qutu h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 40px;
+    color: #03045E;
+
+}
+.son-hisse .qutular .ikici-qutu img{
+
+    margin-top: 30px;
+   
+}
+    
+.son-hisse .qutular .birinci-qutu span{
+    font-size: 10px;
+    color: #03045E;
+
+}
+
+.son-hisse .qutular .ikici-qutu span{
+    font-size: 10px;
+    color: #03045E;
+
+}
+.yuxari-button{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #03045E;
+    color:white;
+    border-radius:20px;
+    border: 1px solid #03045E;
+    transition: all .5s ease-in;
+
+}
+.yuxari-button:hover{
+    border: 1px solid #03045E;
+    background-color: white;
+    color: #03045E;
+}
+
+
+
+
+footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+footer h1{
+    color: #f7f197;
+    font-size: 100px;
+    font-weight: 800;
+    
+}
+footer .finish{
+    display: flex;
+    gap:70px;
+}
+
+footer .finish .sag-teref{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer .finish .sag-teref p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #03045E;
+    margin-bottom: 20px;
+}
+
+footer .finish .sag-teref .linkler{
+    display: flex;
+    flex-direction: column;
+}
+footer .finish .sag-teref a{
+    font-size: 24px;
+    font-weight: 400;
+    color: #03045E;
+    text-decoration: none;
+}
+@media(max-width:1204px){
+    header nav .iconlar{
+        display: none;
+    }
+    header nav i{
+        display: block;
+    }
+    header nav{
+        padding: 0 1rem;
+    }
+}
